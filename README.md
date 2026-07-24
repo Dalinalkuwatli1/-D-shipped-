@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+#  Shipped
+![Uploading Screenshot 2026-07-24 205342.png…]()
 
-## Getting Started
+A modern shipping and logistics web application built with **Next.js**, **TypeScript**, and **Tailwind CSS**. The project delivers a clean, responsive, and user-friendly interface for logistics and shipping services.
 
-First, run the development server:
+## 🌐 Live Demo
+
+https://d-shipped.vercel.app
+
+## ✨ Features
+
+-  Shipping Services
+-  Logistics Solutions
+-  Responsive Design
+-  Fast Performance
+-  Modern UI
+-  Dark Mode
+-  Accessible Interface
+
+## 🛠 Tech Stack
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Vercel
+
+## 📦 Installation
 
 ```bash
+git clone https://github.com/DalinAlkuwatli/d-shipped.git
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🌍 Deployment
 
-## Learn More
+Deployed on **Vercel**
 
-To learn more about Next.js, take a look at the following resources:
+https://d-shipped.vercel.app
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 👩‍💻 Author
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Dalin Alkuwatli**
 
-## Deploy on Vercel
+GitHub:
+https://github.com/DalinAlkuwatli
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+⭐ Feel free to explore the project and leave a star if you find it useful.
