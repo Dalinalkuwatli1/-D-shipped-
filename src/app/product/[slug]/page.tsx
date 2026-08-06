@@ -269,6 +269,12 @@ export default function ProductDetailsPage() {
                   </>
                 )}
               </div>
+              
+              {product.description && (
+                <p className="pt-4 text-sm font-light leading-relaxed text-muted-foreground">
+                  {product.description}
+                </p>
+              )}
             </div>
 
             {/* Config System */}

@@ -2,44 +2,7 @@ import { Product } from "@/types";
 
 // Core 12 hand-curated products with perfectly matched, verified working Unsplash image links
 const coreProducts: Product[] = [
-  {
-    id: "1",
-    slug: "minimalist-linen-blazer",
-    name: "Minimalist Linen Blazer",
-    brand: "ARCS Studio",
-    category: "women",
-    subcategory: "Blazers",
-    description: "A perfectly tailored linen blazer for the modern wardrobe. Crafted from premium Belgian linen with a relaxed yet structured silhouette. Features notched lapels, a single-button closure, and two flap pockets.",
-    price: 289,
-    originalPrice: 420,
-    discount: 31,
-    images: [
-      "https://6a5ca0bf53cbb51f4784d637.imgix.net/sandbox/28512e1999412f9508728822edf4350b.jpg",
-      "https://6a5ca0bf53cbb51f4784d637.imgix.net/sandbox/01_12062939-R36_KAS_SU26_6-30_ED_060.webp",
-      "https://6a5ca0bf53cbb51f4784d637.imgix.net/sandbox/m6.jpg"
-    ],
-    colors: [
-      { name: "Sand", hex: "#140c4eff", image: "https://6a5ca0bf53cbb51f4784d637.imgix.net/sandbox/01_12062939-R36_KAS_SU26_6-30_ED_060.webp" },
-      { name: "Ivory", hex: "#070606ff", image: "https://6a5ca0bf53cbb51f4784d637.imgix.net/sandbox/m6.jpg" }
-    ],
-    sizes: ["XS", "S", "M", "L", "XL"],
-    rating: 4.8,
-    reviewCount: 124,
-    reviews: [
-      { id: "r1", userId: "u1", userName: "Sophie M.", rating: 5, title: "Absolutely stunning", body: "The quality of this blazer is exceptional. Fits perfectly and the linen is incredibly soft.", date: "2025-03-10", verified: true, helpful: 42 }
-    ],
-    tags: ["blazer", "linen", "minimalist", "workwear"],
-    isBestSeller: true,
-    isFeatured: true,
-    inStock: true,
-    stockCount: 18,
-    sku: "WBL-001-SND",
-    material: "100% Belgian Linen",
-    careInstructions: ["Dry clean only", "Do not bleach", "Iron on low heat"],
-    shippingInfo: "Free shipping on orders over $150. Estimated delivery 3-5 business days.",
-    returnPolicy: "Free returns within 30 days of purchase.",
-    createdAt: "2025-01-15T00:00:00Z",
-  },
+
   {
     id: "2",
     slug: "oversized-cashmere-sweater",
@@ -77,166 +40,15 @@ const coreProducts: Product[] = [
     returnPolicy: "Free returns within 30 days of purchase.",
     createdAt: "2025-02-20T00:00:00Z",
   },
-  {
-    id: "3",
-    slug: "tailored-wide-leg-trousers",
-    name: "Tailored Wide Leg Trousers",
-    brand: "ARCS Studio",
-    category: "women",
-    subcategory: "Trousers",
-    description: "These wide-leg trousers are the cornerstone of a refined wardrobe. Cut from a luxurious wool-blend fabric with a high-rise waist and fluid silhouette.",
-    price: 195,
-    originalPrice: 260,
-    discount: 25,
-    images: [
-      "https://6a5ca0bf53cbb51f4784d637.imgix.net/sandbox/ninepine-asana-relaxed-comfortable-work-trousers-dark-grey.webp",
-      "https://6a5ca0bf53cbb51f4784d637.imgix.net/sandbox/wide-leg-simple-women-trousers-light-greygz-trousers-klaudio-fashion-bs-7639-98391-69-B.jpg",
-      "https://6a5ca0bf53cbb51f4784d637.imgix.net/sandbox/images%20(4).jpeg"
-    ],
-    colors: [
-      { name: "Ecru", hex: "#F2EDE4", image: "https://6a5ca0bf53cbb51f4784d637.imgix.net/sandbox/ninepine-asana-relaxed-comfortable-work-trousers-dark-grey.webp" },
-      { name: "Charcoal", hex: "#374151", image: "https://6a5ca0bf53cbb51f4784d637.imgix.net/sandbox/wide-leg-simple-women-trousers-light-greygz-trousers-klaudio-fashion-bs-7639-98391-69-B.jpg" }
-    ],
-    sizes: ["XS", "S", "M", "L", "XL"],
-    rating: 4.7,
-    reviewCount: 67,
-    reviews: [
-      { id: "r4", userId: "u4", userName: "Maya T.", rating: 5, title: "Perfect fit", body: "These are everything I wanted. The fabric is beautiful and they iron perfectly.", date: "2025-02-15", verified: true, helpful: 28 }
-    ],
-    tags: ["trousers", "wide-leg", "tailored", "workwear"],
-    isBestSeller: true,
-    inStock: true,
-    stockCount: 31,
-    sku: "WTR-003-ECR",
-    material: "70% Wool, 30% Polyester",
-    careInstructions: ["Dry clean preferred", "Iron on medium heat", "Do not bleach"],
-    shippingInfo: "Free shipping on orders over $150. Estimated delivery 3-5 business days.",
-    returnPolicy: "Free returns within 30 days of purchase.",
-    createdAt: "2025-01-08T00:00:00Z",
-  },
-  {
-    id: "4",
-    slug: "structured-leather-tote",
-    name: "Structured Leather Tote",
-    brand: "Maison Lumière",
-    category: "bags",
-    subcategory: "Totes",
-    description: "An architectural tote in full-grain Italian leather. The rigid base and structured panels give this bag an unmistakably refined presence.",
-    price: 525,
-    originalPrice: 525,
-    images: [
-      "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=800&q=80",
-      "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=800&q=80"
-    ],
-    colors: [
-      { name: "Cognac", hex: "#14110dff", image: "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=800&q=80" },
-      { name: "Black", hex: "#9e6413ff", image: "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=800&q=80" }
-    ],
-    sizes: ["One Size"],
-    rating: 4.9,
-    reviewCount: 213,
-    reviews: [
-      { id: "r5", userId: "u5", userName: "Priya S.", rating: 5, title: "A forever bag", body: "This is the most beautiful bag I have ever owned. The leather is incredible.", date: "2025-03-12", verified: true, helpful: 89 }
-    ],
-    tags: ["leather", "tote", "luxury", "bag"],
-    isBestSeller: true,
-    isTrending: true,
-    inStock: true,
-    stockCount: 9,
-    sku: "BAG-004-CGN",
-    material: "Full-grain Italian Leather",
-    careInstructions: ["Clean with dry cloth", "Store in dust bag", "Condition regularly"],
-    shippingInfo: "Free shipping on orders over $150. Estimated delivery 3-5 business days.",
-    returnPolicy: "Free returns within 30 days of purchase.",
-    createdAt: "2024-12-01T00:00:00Z",
-  },
-  {
-    id: "5",
-    slug: "merino-crew-neck-tee",
-    name: "Merino Crew-Neck Tee",
-    brand: "Nomad Atelier",
-    category: "men",
-    subcategory: "T-Shirts",
-    description: "A classic crew-neck cut from superfine 18.5-micron merino wool. Temperature-regulating, odour-resistant, and machine washable.",
-    price: 95,
-    originalPrice: 95,
-    images: [
-      "https://6a5ca0bf53cbb51f4784d637.imgix.net/sandbox/images%20(2).jpeg",
-      "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=800&q=80",
-      "https://6a5ca0bf53cbb51f4784d637.imgix.net/sandbox/4100-erkek-t-shirt-erkek-52396-28-B.jpg",
-      "https://6a5ca0bf53cbb51f4784d637.imgix.net/sandbox/polo-yaka-dugmeli-ribanali-erkek-t-shirt-mavi-yeni-erkek-giyim-hit-time-780286-19-B.jpg"
-    ],
-    colors: [
-      { name: "Navy", hex: "#1B3A5C", image: "https://6a5ca0bf53cbb51f4784d637.imgix.net/sandbox/images%20(2).jpeg" },
-      { name: "White", hex: "#FFFFFF", image: "https://6a5ca0bf53cbb51f4784d637.imgix.net/sandbox/1_org_zoom.webp" },
-      { name: "Navy Alt", hex: "#1B3A5C", image: "https://6a5ca0bf53cbb51f4784d637.imgix.net/sandbox/4100-erkek-t-shirt-erkek-52396-28-B.jpg" },
-      { name: "White Alt", hex: "#FFFFFF", image: "https://6a5ca0bf53cbb51f4784d637.imgix.net/sandbox/polo-yaka-dugmeli-ribanali-erkek-t-shirt-mavi-yeni-erkek-giyim-hit-time-780286-19-B.jpg" }
-    ],
-    sizes: ["S", "M", "L", "XL", "XXL"],
-    rating: 4.8,
-    reviewCount: 342,
-    reviews: [
-      { id: "r6", userId: "u6", userName: "James H.", rating: 5, title: "Best t-shirt I own", body: "Lightweight, breathable and looks sharp. I bought 3 colours.", date: "2025-03-05", verified: true, helpful: 121 }
-    ],
-    tags: ["merino", "t-shirt", "basics", "men"],
-    isBestSeller: true,
-    inStock: true,
-    stockCount: 87,
-    sku: "MTT-005-NVY",
-    material: "100% Superfine Merino Wool",
-    careInstructions: ["Machine wash cold", "Lay flat to dry"],
-    shippingInfo: "Free shipping on orders over $150. Estimated delivery 3-5 business days.",
-    returnPolicy: "Free returns within 30 days of purchase.",
-    createdAt: "2024-11-15T00:00:00Z",
-  },
-  {
-    id: "6",
-    slug: "slim-chino-trousers",
-    name: "Slim Chino Trousers",
-    brand: "ARCS Studio",
-    category: "men",
-    subcategory: "Trousers",
-    description: "A modern slim-fit chino in a premium cotton-stretch fabric. Versatile enough for the office and refined enough for evening wear.",
-    price: 145,
-    originalPrice: 195,
-    discount: 26,
-    images: [
-      "https://6a5ca0bf53cbb51f4784d637.imgix.net/sandbox/cdb548a8509425626cef0132798401bb.jpg",
-      "https://6a5ca0bf53cbb51f4784d637.imgix.net/sandbox/f08a2b82283d243d49e2d18ab67700da.jpg",
-      "https://6a5ca0bf53cbb51f4784d637.imgix.net/sandbox/fb475a085d5f23ee00adc9c7b43ef99f.jpg",
-      "https://6a5ca0bf53cbb51f4784d637.imgix.net/sandbox/5a95ff20ed946b640d17e8a75bec013f.jpg"
-    ],
-    colors: [
-      { name: "Khaki", hex: "#65625dff", image: "https://6a5ca0bf53cbb51f4784d637.imgix.net/sandbox/cdb548a8509425626cef0132798401bb.jpg" },
-      { name: "Navy", hex: "#111416ff", image: "https://6a5ca0bf53cbb51f4784d637.imgix.net/sandbox/f08a2b82283d243d49e2d18ab67700da.jpg" },
-      { name: "Khaki Alt", hex: "#65625dff", image: "https://6a5ca0bf53cbb51f4784d637.imgix.net/sandbox/fb475a085d5f23ee00adc9c7b43ef99f.jpg" },
-      { name: "Navy Alt", hex: "#111416ff", image: "https://6a5ca0bf53cbb51f4784d637.imgix.net/sandbox/5a95ff20ed946b640d17e8a75bec013f.jpg" }
-    ],
-    sizes: ["S", "M", "L", "XL", "XXL"],
-    rating: 4.6,
-    reviewCount: 178,
-    reviews: [
-      { id: "r7", userId: "u7", userName: "Alex R.", rating: 4, title: "Great quality", body: "Good fit and excellent fabric. Very pleased.", date: "2025-02-20", verified: true, helpful: 45 }
-    ],
-    tags: ["chino", "slim", "men", "trousers"],
-    isTrending: true,
-    inStock: true,
-    stockCount: 52,
-    sku: "MCH-006-KHK",
-    material: "97% Cotton, 3% Elastane",
-    careInstructions: ["Machine wash cold", "Tumble dry low"],
-    shippingInfo: "Free shipping on orders over $150. Estimated delivery 3-5 business days.",
-    returnPolicy: "Free returns within 30 days of purchase.",
-    createdAt: "2025-01-20T00:00:00Z",
-  },
+
   {
     id: "7",
-    slug: "silk-midi-slip-dress",
-    name: "Silk Midi Slip Dress",
+    slug: "floral-ball-gown",
+    name: "Floral Ball Gown",
     brand: "Maison Lumière",
     category: "women",
     subcategory: "Dresses",
-    description: "A bias-cut silk slip dress that moves like water. The adjustable spaghetti straps and lace trim detail elevate this piece from effortless to ethereal.",
+    description: "An off-the-shoulder voluminous ball gown adorned with delicate floral appliqués. The dramatic silhouette and feminine detailing make this a breathtaking statement piece for gala evenings and special celebrations.",
     price: 320,
     originalPrice: 320,
     images: [
@@ -244,23 +56,23 @@ const coreProducts: Product[] = [
       "https://6a5ca0bf53cbb51f4784d637.imgix.net/sandbox/Sharla-1.webp"
     ],
     colors: [
-      { name: "Champagne", hex: "#F7E7CE", image: "https://6a5ca0bf53cbb51f4784d637.imgix.net/sandbox/76.jpg" },
-      { name: "Onyx", hex: "#353839", image: "https://6a5ca0bf53cbb51f4784d637.imgix.net/sandbox/Sharla-1.webp" }
+      { name: "Blush Pink", hex: "#F7C5CE", image: "https://6a5ca0bf53cbb51f4784d637.imgix.net/sandbox/76.jpg" },
+      { name: "Ivory", hex: "#F8F4EF", image: "https://6a5ca0bf53cbb51f4784d637.imgix.net/sandbox/Sharla-1.webp" }
     ],
     sizes: ["XS", "S", "M", "L"],
     rating: 4.9,
     reviewCount: 156,
     reviews: [
-      { id: "r8", userId: "u8", userName: "Natalie V.", rating: 5, title: "Absolutely gorgeous", body: "I wore this to a wedding and felt like the most elegant person in the room.", date: "2025-03-14", verified: true, helpful: 78 }
+      { id: "r8", userId: "u8", userName: "Natalie V.", rating: 5, title: "Absolutely stunning", body: "I wore this to a gala and received compliments all evening. The floral details are exquisite.", date: "2025-03-14", verified: true, helpful: 78 }
     ],
-    tags: ["silk", "dress", "midi", "elegant"],
+    tags: ["gown", "ball gown", "floral", "evening", "formal", "luxury"],
     isNew: true,
     isTrending: true,
     isFeatured: true,
     inStock: true,
     stockCount: 14,
-    sku: "WDR-007-CHP",
-    material: "100% Mulberry Silk",
+    sku: "WDR-007-FBG",
+    material: "Layered Chiffon & Floral Appliqué",
     careInstructions: ["Dry clean only", "Do not wring"],
     shippingInfo: "Free shipping on orders over $150. Estimated delivery 3-5 business days.",
     returnPolicy: "Free returns within 30 days of purchase.",
@@ -409,43 +221,8 @@ const coreProducts: Product[] = [
     returnPolicy: "Free returns within 30 days of purchase.",
     createdAt: "2025-02-01T00:00:00Z",
   },
-  {
-    id: "12",
-    slug: "suede-ankle-boots",
-    name: "Suede Ankle Boots",
-    brand: "Maison Lumière",
-    category: "shoes",
-    subcategory: "Boots",
-    description: "Sleek ankle boots crafted from premium suede with a pointed toe and block heel. The cushioned insole ensures all-day comfort without compromising style.",
-    price: 345,
-    originalPrice: 430,
-    discount: 20,
-    images: [
-      "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=800&q=80",
-      "https://6a5ca0bf53cbb51f4784d637.imgix.net/sandbox/E13974s.webp"
-    ],
-    colors: [
-      { name: "Camel", hex: "#181375ff", image: "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=800&q=80" },
-      { name: "Black", hex: "#111111", image: "https://6a5ca0bf53cbb51f4784d637.imgix.net/sandbox/E13974s.webp" }
-    ],
-    sizes: ["S", "M", "L", "XL"],
-    rating: 4.8,
-    reviewCount: 143,
-    reviews: [
-      { id: "r13", userId: "u13", userName: "Rosa M.", rating: 5, title: "Incredibly comfortable", body: "I wore these all day and my feet never hurt. The suede is gorgeous.", date: "2025-03-01", verified: true, helpful: 52 }
-    ],
-    tags: ["suede", "boots", "ankle", "women"],
-    isBestSeller: true,
-    isFeatured: true,
-    inStock: true,
-    stockCount: 16,
-    sku: "SHO-012-CML",
-    material: "Premium Suede upper, Leather sole",
-    careInstructions: ["Use suede protector", "Brush with suede brush"],
-    shippingInfo: "Free shipping on orders over $150. Estimated delivery 3-5 business days.",
-    returnPolicy: "Free returns within 30 days of purchase.",
-    createdAt: "2024-11-01T00:00:00Z",
-  },
+
+
 ];
 
 // Helper database of verified matching Unsplash photos for each category to ensure 100% matched, accurate image rendering
@@ -453,7 +230,7 @@ const womenImagesPool = [
   ["https://6a5ca0bf53cbb51f4784d637.imgix.net/sandbox/1_org_zoom%20(1).webp", "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=800&q=80"],   // 0
   ["https://6a5ca0bf53cbb51f4784d637.imgix.net/sandbox/images%20(4).jpeg", "https://6a5ca0bf53cbb51f4784d637.imgix.net/sandbox/ninepine-asana-relaxed-comfortable-work-trousers-dark-grey.webp"],   // 1
   ["https://6a5ca0bf53cbb51f4784d637.imgix.net/sandbox/76.jpg", "https://6a5ca0bf53cbb51f4784d637.imgix.net/sandbox/Sharla-1.webp"],   // 2
-  ["https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=800&q=80", "https://6a5ca0bf53cbb51f4784d637.imgix.net/s-l1200.jpg"],   // 3
+  ["https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=800&q=80", "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=800&q=80"],   // 3 — A-Line Summer Dress (elegant, editorial)
   ["https://6a5ca0bf53cbb51f4784d637.imgix.net/sandbox/s7-5462_alternate1.avif", "https://6a5ca0bf53cbb51f4784d637.imgix.net/sandbox/Men-Leather-Jackets-1582970628214_d6c2af3e-cd7e-44b8-88cb-94527f33218d_2048x.webp"],   // 4
   ["https://6a5ca0bf53cbb51f4784d637.imgix.net/sandbox/E13974s.webp", "https://6a5ca0bf53cbb51f4784d637.imgix.net/19896678102-a1.webp"],   // 5
   ["https://6a5ca0bf53cbb51f4784d637.imgix.net/sandbox/91QA9fGlvfL._AC_UY1000_.jpg", "https://images.unsplash.com/photo-1551163943-3f6a855d1153?w=800&q=80"],   // 6
@@ -461,27 +238,27 @@ const womenImagesPool = [
   ["https://images.unsplash.com/photo-1515347619362-f67b54abcc9b?w=800&q=80", "https://images.unsplash.com/photo-1495385794356-15371f348c31?w=800&q=80"],   // 8
   ["https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=800&q=80", "https://images.unsplash.com/photo-1502716115624-b565e0990d9b?w=800&q=80"],   // 9
   ["https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=800&q=80", "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=800&q=80"],   // 10
-  ["https://images.unsplash.com/photo-1475180098004-ca77a66827be?w=800&q=80", "https://6a5ca0bf53cbb51f4784d637.imgix.net/sandbox/28512e1999412f9508728822edf4350b.jpg"],   // 11
+  ["https://6a5ca0bf53cbb51f4784d637.imgix.net/3_DSC01816.webp", "https://6a5ca0bf53cbb51f4784d637.imgix.net/wool-poncho-front-view.avif"],   // 11
   ["https://6a5ca0bf53cbb51f4784d637.imgix.net/SS26_SIGN-UP_POPUP.webp", "https://6a5ca0bf53cbb51f4784d637.imgix.net/sandbox/71yFIpu0i3L._AC_UY1000_.jpg"],   // 12
-  ["https://6a5ca0bf53cbb51f4784d637.imgix.net/AZALIA-SU_TAUPE_0.webp", "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&q=80"],   // 13
-  ["https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=800&q=80", "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=800&q=80"],   // 14
-  ["https://images.unsplash.com/photo-1548549557-dbe9946621da?w=800&q=80", "https://6a5ca0bf53cbb51f4784d637.imgix.net/m6.jpg"],   // 15
-  ["https://images.unsplash.com/photo-1571513722275-4b41940f54b8?w=800&q=80", "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=800&q=80"],   // 16
-  ["https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=800&q=80", "https://6a5ca0bf53cbb51f4784d637.imgix.net/images%20(1).jpeg"],   // 17
+  ["https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=800&q=80", "https://images.unsplash.com/photo-1551163943-3f6a855d1153?w=800&q=80"],   // 13 Suede Wrap Skirt
+  ["https://images.unsplash.com/photo-1548126032-079a0fb0099d?w=800&q=80", "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?w=800&q=80"],   // 14 Double-Breasted Overcoat
+  ["https://images.unsplash.com/photo-1548549557-dbe9946621da?w=800&q=80", "https://images.unsplash.com/photo-1554412933-514a83d2f3c8?w=800&q=80"],   // 15 Classic Tailored Blazer
+  ["https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=800&q=80", "https://images.unsplash.com/photo-1515347619362-f67b54abcc9b?w=800&q=80"],   // 16 High-Rise Tailored Shorts
+  ["https://6a5ca0bf53cbb51f4784d637.imgix.net/1744684769b1a67efa1653d9e41a71406f58098035_thumbnail_750x999.webp", "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=800&q=80"],   // 17 Chiffon Evening Gown
   ["https://images.unsplash.com/photo-1581044777550-4cfa60707c03?w=800&q=80", "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=800&q=80"],   // 18
 ];
 
 const menImagesPool = [
-  ["https://images.unsplash.com/photo-1516257984-b1b4d707412e?w=800&q=80", "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=800&q=80"],
-  ["https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&q=80", "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=800&q=80"],
-  ["https://images.unsplash.com/photo-1488161628813-04466f87258a?w=800&q=80", "https://images.unsplash.com/photo-1506152983158-b4a16552c864?w=800&q=80"],
-  ["https://images.unsplash.com/photo-1504593811411-9b174e74d520?w=800&q=80", "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=800&q=80"],
-  ["https://images.unsplash.com/photo-1617137968427-85924c800a22?w=800&q=80", "https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?w=800&q=80"],
-  ["https://images.unsplash.com/photo-1512224583110-3a1ec472bfa0?w=800&q=80", "https://images.unsplash.com/photo-1618886614638-80e3c103d31a?w=800&q=80"],
-  ["https://images.unsplash.com/photo-1480455624313-e29b44bbfde1?w=800&q=80", "https://images.unsplash.com/photo-1506634572416-48cdfe530110?w=800&q=80"],
-  ["https://images.unsplash.com/photo-1550246140-5119ae4790b8?w=800&q=80", "https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?w=800&q=80"],
-  ["https://images.unsplash.com/photo-1517511620798-cec17d428bc0?w=800&q=80", "https://images.unsplash.com/photo-1487222477894-8943e31ef7b2?w=800&q=80"],
-  ["https://images.unsplash.com/photo-1534030347209-467a5b0ad3e6?w=800&q=80", "https://images.unsplash.com/photo-1503341455253-b2e723bb3db8?w=800&q=80"],
+  ["https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=800&q=80", "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=800&q=80"],   // 0 — Oxford Shirt
+  ["https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=800&q=80", "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=800&q=80"],   // 1 — Wool Trousers
+  ["https://images.unsplash.com/photo-1618517351616-38fb9c5210c6?w=800&q=80", "https://images.unsplash.com/photo-1622445275463-afa2ab738c34?w=800&q=80"],   // 2 — Boxy Tee
+  ["https://images.unsplash.com/photo-1551028719-00167b16eac5?w=800&q=80", "https://images.unsplash.com/photo-1520975954732-35dd22299614?w=800&q=80"],   // 3 — Bomber Jacket
+  ["https://images.unsplash.com/photo-1598032895392-ce0b6764838d?w=800&q=80", "https://images.unsplash.com/photo-1593032465175-481ac7f401a0?w=800&q=80"],   // 4 — Grandad Shirt
+  ["https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=800&q=80", "https://images.unsplash.com/photo-1548126032-079a0fb0099d?w=800&q=80"],   // 5 — Overcoat
+  ["https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=800&q=80", "https://images.unsplash.com/photo-1560243563-062bfc001d68?w=800&q=80"],   // 6 — Chino
+  ["https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=800&q=80", "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=800&q=80"],   // 7 — Henley
+  ["https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=800&q=80", "https://images.unsplash.com/photo-1507680434567-5739c80be1ac?w=800&q=80"],   // 8 — Puffer Vest
+  ["https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800&q=80", "https://images.unsplash.com/photo-1562157873-818bc0726f68?w=800&q=80"],   // 9 — Crew Neck Tee
 ];
 
 const bagImagesPool = [
@@ -512,73 +289,44 @@ const shoeImagesPool = [
 
 // Seed arrays to populate women products (24 pieces in total)
 const womenSeed = [
-  { name: "High-Waist Straight Jeans", subcategory: "Jeans", price: 145, imagesIdx: 1, brand: "ARCS Studio", tags: ["jeans", "denim", "high-waist", "casual"] },
-  { name: "Satin Slip Midi Skirt", subcategory: "Skirts", price: 180, imagesIdx: 2, brand: "Maison Lumière", tags: ["skirt", "satin", "midi", "luxury"] },
-  { name: "Cropped Wool Jacket", subcategory: "Jackets", price: 295, imagesIdx: 0, brand: "ARCS Studio", tags: ["jacket", "wool", "cropped", "office"] },
-  { name: "A-Line Summer Dress", subcategory: "Dresses", price: 230, imagesIdx: 3, brand: "Maison Lumière", tags: ["dress", "summer", "aline", "casual"] },
-  { name: "Crepe Tailored Blazer", subcategory: "Blazers", price: 290, imagesIdx: 4, brand: "ARCS Studio", tags: ["blazer", "tailored", "crepe", "office"] },
-  { name: "Merino Wool Poncho", subcategory: "Knitwear", price: 210, imagesIdx: 11, brand: "Nomad Atelier", tags: ["poncho", "merino", "knitwear", "casual"] },
+  { name: "Tailored Wide-Leg Trousers", subcategory: "Trousers", price: 165, imagesIdx: 1, brand: "ARCS Studio", tags: ["trousers", "wide-leg", "tailored", "office"] },
+  { name: "A-Line Summer Dress", subcategory: "Dresses", price: 230, imagesIdx: 3, brand: "Maison Lumière", tags: ["dress", "summer", "aline", "casual"], description: "A breezy A-line summer dress crafted from lightweight, breathable fabric. Its elegant silhouette flows beautifully with every step, featuring delicate shoulder straps and a subtle sweetheart neckline. Perfect for warm-weather garden parties or a chic weekend getaway, this dress perfectly balances casual comfort with effortless sophistication." },
   { name: "Suede Wrap Skirt", subcategory: "Skirts", price: 245, imagesIdx: 13, brand: "Maison Lumière", tags: ["skirt", "suede", "wrap", "luxury"] },
-  { name: "Double-Breasted Overcoat", subcategory: "Coats", price: 490, imagesIdx: 14, brand: "ARCS Studio", tags: ["overcoat", "wool", "double-breasted", "luxury"] },
-  { name: "High-Rise Tailored Shorts", subcategory: "Shorts", price: 95, imagesIdx: 16, brand: "ARCS Studio", tags: ["shorts", "tailored", "summer", "casual"] },
-  { name: "Chiffon Evening Gown", subcategory: "Dresses", price: 450, imagesIdx: 17, brand: "Maison Lumière", tags: ["gown", "chiffon", "evening", "luxury", "wedding"] }
+  { name: "Classic Tailored Blazer", subcategory: "Blazers", price: 285, imagesIdx: 15, brand: "Maison Lumière", tags: ["blazer", "suit", "office", "tailored"] },
 ];
 
-// Seed arrays to populate men products (22 pieces in total)
 const menSeed = [
   { name: "Premium Cotton Oxford Shirt", subcategory: "Shirts", price: 110, imagesIdx: 0, brand: "ARCS Studio", tags: ["shirt", "oxford", "cotton", "office"] },
-  { name: "Tailored Wool Trousers", subcategory: "Trousers", price: 220, imagesIdx: 1, brand: "ARCS Studio", tags: ["trousers", "wool", "tailored", "office"] },
-  { name: "French Terry Hoodie", subcategory: "Hoodies", price: 135, imagesIdx: 2, brand: "Nomad Atelier", tags: ["hoodie", "terry", "casual"], discount: 15, originalPrice: 160 },
-  { name: "Structured Linen Blazer", subcategory: "Blazers", price: 310, imagesIdx: 3, brand: "Maison Lumière", tags: ["blazer", "linen", "structured", "office", "luxury"] },
-  { name: "Classic Polo Shirt", subcategory: "Polo Shirts", price: 85, imagesIdx: 4, brand: "Nomad Atelier", tags: ["polo", "shirt", "cotton", "casual"] },
-  { name: "Lightweight Summer Shorts", subcategory: "Shorts", price: 75, imagesIdx: 5, brand: "ARCS Studio", tags: ["shorts", "summer", "lightweight", "casual"] },
-  { name: "Heavyweight Boxy Tee", subcategory: "T-Shirts", price: 65, imagesIdx: 6, brand: "Nomad Atelier", tags: ["tee", "boxy", "tshirt", "casual"] },
-  { name: "Technical Shell Jacket", subcategory: "Jackets", price: 245, imagesIdx: 7, brand: "ARCS Studio", tags: ["jacket", "technical", "shell", "casual"] },
-  { name: "Raw Selvedge Jeans", subcategory: "Jeans", price: 180, imagesIdx: 8, brand: "Nomad Atelier", tags: ["jeans", "denim", "selvedge", "casual"] },
-  { name: "Fine Knit Crewneck", subcategory: "Knitwear", price: 130, imagesIdx: 9, brand: "Maison Lumière", tags: ["crewneck", "knit", "wool", "office"] },
-  { name: "Shearling Suede Bomber", subcategory: "Jackets", price: 580, imagesIdx: 0, brand: "Maison Lumière", tags: ["bomber", "shearling", "suede", "luxury"] },
-  { name: "Linen Grandad Collar Shirt", subcategory: "Shirts", price: 115, imagesIdx: 1, brand: "Nomad Atelier", tags: ["shirt", "linen", "grandad", "casual"] },
-  { name: "Cotton Pleated Trousers", subcategory: "Trousers", price: 160, imagesIdx: 2, brand: "ARCS Studio", tags: ["trousers", "pleated", "cotton", "office"] },
-  { name: "Zip-Up Knit Cardigan", subcategory: "Knitwear", price: 175, imagesIdx: 3, brand: "Nomad Atelier", tags: ["cardigan", "knit", "zipup", "casual"] },
-  { name: "Wool Blend Overcoat", subcategory: "Coats", price: 425, imagesIdx: 4, brand: "ARCS Studio", tags: ["overcoat", "wool", "coat", "luxury"] },
-  { name: "Pique Cotton Polo", subcategory: "Polo Shirts", price: 90, imagesIdx: 5, brand: "Nomad Atelier", tags: ["polo", "pique", "cotton", "casual"], discount: 20, originalPrice: 112 },
+  { name: "Heavyweight Boxy Tee", subcategory: "T-Shirts", price: 65, imagesIdx: 2, brand: "Nomad Atelier", tags: ["tee", "boxy", "tshirt", "casual"] },
+  { name: "Shearling Suede Bomber", subcategory: "Jackets", price: 580, imagesIdx: 3, brand: "Maison Lumière", tags: ["bomber", "shearling", "suede", "luxury"] },
+  { name: "Wool Blend Overcoat", subcategory: "Coats", price: 425, imagesIdx: 5, brand: "ARCS Studio", tags: ["overcoat", "wool", "coat", "luxury"] },
   { name: "Relaxed Fit Chino", subcategory: "Trousers", price: 140, imagesIdx: 6, brand: "ARCS Studio", tags: ["chino", "trousers", "relaxed", "casual"] },
-  { name: "Graphic Logo Sweater", subcategory: "Knitwear", price: 120, imagesIdx: 7, brand: "Nomad Atelier", tags: ["sweater", "knit", "logo", "casual"] },
-  { name: "Nylon Windbreaker", subcategory: "Jackets", price: 165, imagesIdx: 8, brand: "ARCS Studio", tags: ["windbreaker", "nylon", "jacket", "casual"] }
+  { name: "Waffle Knit Henley", subcategory: "T-Shirts", price: 78, imagesIdx: 7, brand: "Nomad Atelier", tags: ["henley", "waffle", "knit", "casual"] },
+  { name: "Quilted Puffer Vest", subcategory: "Jackets", price: 195, imagesIdx: 8, brand: "ARCS Studio", tags: ["vest", "puffer", "quilted", "casual"] },
+  { name: "Essential Crew Neck Tee", subcategory: "T-Shirts", price: 55, imagesIdx: 9, brand: "Nomad Atelier", tags: ["tee", "crewneck", "essential", "casual"] }
 ];
 
 // Seed arrays to populate bags (12 pieces in total)
 const bagsSeed = [
-  { name: "Saddle Shoulder Bag", subcategory: "Shoulder Bags", price: 245, imagesIdx: 2, brand: "Maison Lumière", tags: ["shoulder", "saddle", "leather"] },
-  { name: "Zippered Leather Wallet", subcategory: "Wallets", price: 110, imagesIdx: 2, brand: "ARCS Studio", tags: ["wallet", "leather", "zipper"] },
-  { name: "Croc-Effect Shoulder Bag", subcategory: "Shoulder Bags", price: 275, imagesIdx: 4, brand: "Maison Lumière", tags: ["shoulder", "croc", "bag"] },
-  { name: "Woven Beach Tote", subcategory: "Tote Bags", price: 145, imagesIdx: 2, brand: "Nomad Atelier", tags: ["tote", "beach", "woven"] },
-  { name: "Slim Document Case", subcategory: "Tote Bags", price: 320, imagesIdx: 4, brand: "Maison Lumière", tags: ["document", "briefcase", "leather"] }
+  { name: "Zippered Leather Wallet", subcategory: "Wallets", price: 110, imagesIdx: 2, brand: "ARCS Studio", tags: ["wallet", "leather", "zipper"] }
 ];
 
 // Seed arrays to populate shoes (15 pieces in total)
 const shoesSeed = [
-  { name: "Pointed High Heels", subcategory: "High Heels", price: 285, imagesIdx: 2, brand: "Maison Lumière", tags: ["heels", "pointed", "formal"] },
   { name: "Running Knit Trainers", subcategory: "Running Shoes", price: 165, imagesIdx: 3, brand: "ARCS Studio", tags: ["trainers", "knit", "running"] },
-  { name: "Knee-High Leather Boots", subcategory: "Boots", price: 380, imagesIdx: 1, brand: "Maison Lumière", tags: ["boots", "kneehigh", "leather", "women"] }
 ];
 
 const accessoriesImagesPool = [
-  ["https://6a5ca0bf53cbb51f4784d637.imgix.net/images%20(7).jpeg", "https://6a5ca0bf53cbb51f4784d637.imgix.net/19c706c3-d16f-4dfa-8331-7bd5be2c9016-1000x1000-4w90PEDs8KYiqtvgCN4JPTpgWnoWSGF6fNjAjQms.webp"],
-  ["https://6a5ca0bf53cbb51f4784d637.imgix.net/images%20(8).jpeg", "https://6a5ca0bf53cbb51f4784d637.imgix.net/Akdpn-Men-S-Watches-New-Stylish-Black-Watches-Hommes-Outdoor-Sport-Waterproof-Brand-Watches-with-Three-Dial-Quartz-Wristwatch.avif"],
-  ["https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?w=800&q=80", "https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=800&q=80"],
-  ["https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=800&q=80", "https://6a5ca0bf53cbb51f4784d637.imgix.net/images%20(9).jpeg"],
+  ["https://6a5ca0bf53cbb51f4784d637.imgix.net/PYPC122455_1.avif", "https://6a5ca0bf53cbb51f4784d637.imgix.net/images%20(12).jpeg"],   // 0 Silk Scarf
+  ["https://6a5ca0bf53cbb51f4784d637.imgix.net/8d2aea2c-1312-4925-a0bd-front.jpg", "https://6a5ca0bf53cbb51f4784d637.imgix.net/51502263.webp"],   // 1 Earrings
+  ["https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=800&q=80", "https://6a5ca0bf53cbb51f4784d637.imgix.net/AM24-Q3C-N-SNAKE-S_2.webp"],   // 2 Necklace
+  ["https://6a5ca0bf53cbb51f4784d637.imgix.net/images%20(14).jpeg", "https://6a5ca0bf53cbb51f4784d637.imgix.net/A15823_AU25_423_P_1%20(1).webp"],   // 3 Cashmere Scarf
   ["https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?w=800&q=80", "https://images.unsplash.com/photo-1622434641406-a158123450f9?w=800&q=80"],
+  ["https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?w=800&q=80", "https://images.unsplash.com/photo-1533139502658-0198f920d8e8?w=800&q=80"],   // 5 Solar Watch
 ];
 
 const accessoriesSeed = [
-  { name: "Classic Leather Belt", subcategory: "Belts", price: 65, imagesIdx: 0, brand: "ARCS Studio", tags: ["belt", "leather", "classic", "casual"] },
-  { name: "Suede Brass Belt", subcategory: "Belts", price: 85, imagesIdx: 1, brand: "Nomad Atelier", tags: ["belt", "suede", "brass", "casual"] },
-  { name: "Slim Waist Belt", subcategory: "Belts", price: 55, imagesIdx: 2, brand: "Maison Lumière", tags: ["belt", "slim", "leather", "office"] },
-  { name: "Woven Linen Belt", subcategory: "Belts", price: 45, imagesIdx: 0, brand: "Nomad Atelier", tags: ["belt", "woven", "linen", "casual"] },
-  { name: "Minimalist Steel Watch", subcategory: "Watches", price: 220, imagesIdx: 3, brand: "ARCS Studio", tags: ["watch", "steel", "minimalist", "office", "luxury"] },
-  { name: "Classic Leather Chronograph", subcategory: "Watches", price: 290, imagesIdx: 4, brand: "Maison Lumière", tags: ["watch", "leather", "chronograph", "luxury"] },
-  { name: "Solar Sport Watch", subcategory: "Watches", price: 180, imagesIdx: 3, brand: "Nomad Atelier", tags: ["watch", "solar", "sport", "casual"] },
+  { name: "Solar Sport Watch", subcategory: "Watches", price: 180, imagesIdx: 5, brand: "Nomad Atelier", tags: ["watch", "solar", "sport", "casual"] },
   { name: "Automatic Leather Watch", subcategory: "Watches", price: 450, imagesIdx: 4, brand: "Maison Lumière", tags: ["watch", "automatic", "leather", "luxury"] },
   { name: "Gold Plated Hoop Earrings", subcategory: "Jewellery", price: 95, imagesIdx: 1, brand: "Maison Lumière", tags: ["jewellery", "gold", "earrings", "luxury"] },
   { name: "Silver Chain Necklace", subcategory: "Jewellery", price: 125, imagesIdx: 2, brand: "ARCS Studio", tags: ["jewellery", "silver", "necklace", "casual"] },
@@ -746,7 +494,7 @@ function generateFullCatalogue(): Product[] {
   // Accessories Category Expansion
   accessoriesSeed.forEach((seed, idx) => {
     // Offset slightly by idx to avoid identical mapping if seeds repeat indices
-    const images = accessoriesImagesPool[(seed.imagesIdx + idx) % accessoriesImagesPool.length];
+    const images = accessoriesImagesPool[seed.imagesIdx % accessoriesImagesPool.length];
     list.push({
       id: String(currentId++),
       slug: slugify(seed.name),

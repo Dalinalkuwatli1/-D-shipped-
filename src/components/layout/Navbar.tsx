@@ -26,7 +26,6 @@ const megaMenus: Record<string, {
           { label: "New Arrivals", href: "/shop?category=women&sort=newest" },
           { label: "Dresses", href: "/shop?category=women&sub=dresses" },
           { label: "Blazers & Suits", href: "/shop?category=women&sub=blazers" },
-          { label: "Knitwear", href: "/shop?category=women&sub=knitwear" },
           { label: "Trousers", href: "/shop?category=women&sub=trousers" },
 
         ],
@@ -38,22 +37,11 @@ const megaMenus: Record<string, {
           { label: "Shoes", href: "/shop?category=shoes" },
           { label: "Jewellery", href: "/shop?category=accessories&sub=jewellery" },
           { label: "Scarves", href: "/shop?category=accessories&sub=scarves" },
-          { label: "Belts", href: "/shop?category=accessories&sub=belts" },
-        ],
-      },
-      {
-        heading: "Collections",
-        links: [
-          { label: "Wedding Atelier", href: "/shop?occasion=wedding" },
-          { label: "Evening Gala", href: "/shop?occasion=evening" },
-          { label: "Office Editorial", href: "/shop?occasion=office" },
-          { label: "Casual Luxury", href: "/shop?occasion=casual" },
-          { label: "Sale", href: "/shop?onSale=true" },
         ],
       },
     ],
     featured: {
-      img: "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=500&q=80",
+      img: "/images/women-featured.jpg",
       label: "Autumn Studio",
       tag: "New Collection",
       href: "/shop?category=women",
@@ -69,7 +57,6 @@ const megaMenus: Record<string, {
           { label: "Jackets", href: "/shop?category=men&sub=jackets" },
           { label: "Trousers", href: "/shop?category=men&sub=trousers" },
           { label: "Shirts", href: "/shop?category=men&sub=shirts" },
-          { label: "Knitwear", href: "/shop?category=men&sub=knitwear" },
         ],
       },
       {
@@ -77,22 +64,12 @@ const megaMenus: Record<string, {
         links: [
           { label: "Bags", href: "/shop?category=bags" },
           { label: "Shoes", href: "/shop?category=shoes" },
-          { label: "Belts", href: "/shop?category=accessories&sub=belts" },
           { label: "Watches", href: "/shop?category=accessories&sub=watches" },
-        ],
-      },
-      {
-        heading: "Collections",
-        links: [
-          { label: "Signature Line", href: "/shop?occasion=luxury" },
-          { label: "Office Edit", href: "/shop?occasion=office" },
-          { label: "Weekend Casual", href: "/shop?occasion=casual" },
-          { label: "Sale", href: "/shop?onSale=true" },
         ],
       },
     ],
     featured: {
-      img: "https://images.unsplash.com/photo-1585518419759-7fe2e0fbf8a6?w=500&q=80",
+      img: "/images/men-featured.png",
       label: "Minimal Menswear",
       tag: "AW 2026",
       href: "/shop?category=men",
@@ -246,7 +223,7 @@ export function Navbar() {
               onMouseEnter={() => { if (closeTimer.current) clearTimeout(closeTimer.current); }}
               onMouseLeave={handleMouseLeave}
             >
-              <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 grid grid-cols-4 gap-10">
+              <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 grid grid-cols-3 gap-10">
                 {/* Link columns */}
                 {megaData.columns.map((col) => (
                   <div key={col.heading}>
