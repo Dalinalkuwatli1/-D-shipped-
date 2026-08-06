@@ -1,8 +1,8 @@
-#  Shipped
+# dalin-store
 
 <img width="2544" height="1231" alt="Screenshot 2026-08-06 181452" src="https://github.com/user-attachments/assets/f74340b3-1efc-465a-8734-5b9e1145ee88" />
 
-# 🚀 D-Shipped
+# 🚀 dalin-store
 
 A modern digital marketing website built with **Next.js**, **TypeScript**, and **Tailwind CSS**. The project showcases marketing services through a clean, responsive, and user-friendly interface designed to help businesses grow their online presence.
 
