@@ -245,7 +245,7 @@ const womenImagesPool = [
   ["https://images.unsplash.com/photo-1548549557-dbe9946621da?w=800&q=80", "https://images.unsplash.com/photo-1554412933-514a83d2f3c8?w=800&q=80"],   // 15 Classic Tailored Blazer
   ["https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=800&q=80", "https://images.unsplash.com/photo-1515347619362-f67b54abcc9b?w=800&q=80"],   // 16 High-Rise Tailored Shorts
   ["https://6a5ca0bf53cbb51f4784d637.imgix.net/1744684769b1a67efa1653d9e41a71406f58098035_thumbnail_750x999.webp", "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=800&q=80"],   // 17 Chiffon Evening Gown
-  ["https://images.unsplash.com/photo-1581044777550-4cfa60707c03?w=800&q=80", "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=800&q=80"],   // 18
+  ["https://images.unsplash.com/photo-1581044777550-4cfa60707c03?w=800&q=80", "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=800&q=80"],   // 18
 ];
 
 const menImagesPool = [

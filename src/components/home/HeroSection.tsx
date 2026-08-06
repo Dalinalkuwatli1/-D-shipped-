@@ -7,7 +7,7 @@ import { ArrowRight, ShieldCheck, Truck, RefreshCw } from "lucide-react";
 
 const floatingCards = [
   {
-    img: "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=400&q=80",
+    img: "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=400&q=80",
     name: "Silk Slip Dress",
     price: "$320",
     tag: "New",
