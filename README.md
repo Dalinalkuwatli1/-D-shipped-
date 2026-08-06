@@ -1,6 +1,7 @@
 #  Shipped
 
-<img width="2533" height="1249" alt="Screenshot 2026-07-24 205333" src="https://github.com/user-attachments/assets/d691a23a-1b16-499a-a786-061aa9bf0148" />
+<img width="2544" height="1231" alt="Screenshot 2026-08-06 181452" src="https://github.com/user-attachments/assets/f74340b3-1efc-465a-8734-5b9e1145ee88" />
+
 
 A modern shipping and logistics web application built with **Next.js**, **TypeScript**, and **Tailwind CSS**. The project delivers a clean, responsive, and user-friendly interface for logistics and shipping services.
 
