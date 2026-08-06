@@ -68,7 +68,7 @@ styles/
 ## 🌍 Deployment
 
 Live Demo:
-https://d-shipped.vercel.app
+dalin1-store.vercel.app
 
 ## 👩‍💻 Author
 
